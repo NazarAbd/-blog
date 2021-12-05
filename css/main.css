@@ -1,0 +1,77 @@
+/*Navbar*/
+.navbar{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	padding: 0;
+}
+.navbar-nav{
+	display: flex;
+flex-direction: column;
+padding: 0;
+margin-bottom: 0;
+list-style: none;
+}
+.navbar-collapse{
+	width: 200px;
+	position: absolute;
+	right: 5%;
+	top: 50px;
+	background-color: #f7f7f7;
+}
+.nav-item{
+padding: 0 10px;
+position: relative;
+cursor: pointer;
+}
+.nav-link{
+color:black !important;	
+}
+.nav-item:not(:last-child){
+border-bottom: 1px solid #ddd;
+}
+.nav-item::before{
+content: '';
+position: absolute;
+right: 0;
+width: 0;
+height: 100%;
+background-color: #10cab7;
+opacity: .5;
+transition: .3s;
+} 
+.nav-item:hover:before{
+	width: 100%;
+}
+.navbar-toggler{
+	width: 25px !important;
+	border: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	cursor: pointer;
+}
+.navbar-toggler span{
+	background-color: #222;
+	margin-bottom: 5px;
+	height: 2px;
+	width: 100%;
+	transition: .3s;
+}
+.navbar-toggler span:nth-child(2){
+	display: inline-block;
+	width: 60%;
+}
+.navbar-toggler:hover span:nth-child(2){
+	width: 100%;
+}
+
+
+/*comment-img*/
+.single-comment img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
