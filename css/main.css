@@ -10,7 +10,7 @@ a{
 }
 body{
 	background-color: #eee;
-	font-family: 'Noto Naskh Arabic', 'sans-serif';
+	font-family: 'Noto Naskh Arabic', 'sans-serif' !important;
 }
 /*-----------------------------------------------Header---------------------------------------------*/
 header{
