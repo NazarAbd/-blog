@@ -4,13 +4,13 @@
 	--dark-color:#1f252a;
 	--dark-color-light:#333453;
 }
-
 /*Globle Rules*/
 a{
 	text-decoration: none;
 }
 body{
 	background-color: #eee;
+	font-family: 'Noto Naskh Arabic', 'sans-serif';
 }
 /*-----------------------------------------------Header---------------------------------------------*/
 header{
@@ -50,9 +50,7 @@ header nav{
 
 /*mode*/
 .mode+input{
-	/*position: relative;*/
-	/*visibility: hidden;*/
-	/*background-color: red;*/
+	visibility: hidden;
 }
 label.mode{
 	position: relative;
@@ -304,7 +302,7 @@ display: flex;
 .footer button,.footer button:hover{
 	padding: 0 !important;
 	outline: none;
-	min-height: 36px;
+	min-height: 39px;
 	border: 1px darkgrey solid !important;
 	background-color: #2a4968 !important;
 	color: white;
