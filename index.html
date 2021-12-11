@@ -12,19 +12,20 @@
     <!-- Main Template CSS File -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body class="dark-mod">
+  <body class="">
     <!-- Header -->
-    <header class="">
+    <header>
       <div class="container">
         <div class="logo">
-          <a href="#">
+          <a href="index.html">
             <img src="images/logo.png">
               Hussam Techs
           </a>
         </div>
-        <!-- <div class="mode"> -->
-          <input type="checkbox" name="mode" class="mode" id="mode">
-        <!-- </div> -->
+        <div>
+          <label for="mode" class="mode off"></label>
+          <input type="checkbox" name="mode" id="mode">
+        </div>
       <nav>
         <span class="icon">
           <span></span>
@@ -34,95 +35,68 @@
         <ul>
           <li><a href="#">المقالات </a></li>
           <li><a href="#">من نحن</a></li>
-          <li><a href="#">تواصل معنا </a></li>
+          <li><a href="#contact">تواصل معنا </a></li>
         </ul>
       </nav>
       </div>
     </header>
     <!------------------------Start Content section------------------>
     <section class="blog py-5">
-    <div class="container py-5">
-      <div class="row rounded">
-        <div class="blog-content col-md-9 justify-content-md-center py-3 px-sm-5">
-          <h2>عنوان الموضوع</h2>
-          <p class="fs-6"><span class="fas fa-user"></span> Hussam Adil</p>
-            
-          <div class="py-2 fs-5 lh-lg"> 
-            <!-- The Actual content of a post contains images, codes , additional link and pragraphes -->
-          <p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-          <a href="#" target="_blank">مثال على رابط </a>
-          <div class="my-3 code fs-6 lh-normal">
-            <pre>
-              modeToggler.addEventListener('change', function(e){
-                if (darkMode==0) {
-                  header.classList.add('dark-mode');
-                  darkMode =1;
-                }
-                else{
-                  header.classList.remove('dark-mode');header.classList.remove('dark-mode');header.classList.remove('dark-mode');
-                  darkMode = 0;
-                  e.currentTarget.checked = false;
-                }
-              });
-              modeToggler.addEventListener('change', function(e){
-                if (darkMode==0) {
-                  header.classList.add('dark-mode');
-                  darkMode =1;
-                }
-                else{
-                  header.classList.remove('dark-mode');
-                  darkMode = 0;
-                  e.currentTarget.checked = false;
-                }
-              });
-            </pre>
+      <div class="container py-5">
+        <div class="row rounded">
+          <div class="blog-content col-md-9 justify-content-md-center py-5 px-sm-5">
+            <!-- Single post -->
+            <div class="single-post py-lg-5 py-4 px-4 px-lg-5 mb-4 shadow border rounded-3">
+             <div class="d-flex align-items-start justify-content-between py-2">
+                <h2>عنوان الموضوع</h2>
+                <div class="opacity-75 small d-flex flex-column align-items-center justify-content-start">
+                  <p class="m-0">hussam adil</p>
+                  <span>12/23/2020</span>
+                </div>
+             </div>
+              <p>الممول هو الشخص الطبيعي او الاعتياري الذي يستهدفه القانون بدفع الضريبة وفقا لشروط محددة للاسهام في الاعباء العامة التي تتحملها الدولة و لابد أن يكون تحديد الممل و تعريفه و اضحا بنص واضح قاطع الدلالة و ان تحدد شروط الضريبة و مقدارها و اسس تقديرها و طرق جباتها و الالتزامات التي تقع على عاتق هذا الممول و هي نقديم الاقرار <a class="text-nowrap" href="single.html">...متابعة القراءة</a></p>
+              <div class="overflow-hidden d-flex align-items-center" style="height:200px; min-width: 100%;">
+                <img src="images/portfolio-1.jpg">
+              </div>      
+            </div>
+            <!-- Single post -->
+             <!-- Single post -->
+            <div class="single-post py-lg-5 py-4 px-4 px-lg-5 mb-4 shadow border rounded-3">
+             <div class="d-flex align-items-start justify-content-between py-2">
+                <h2>عنوان الموضوع</h2>
+                <div class="opacity-75 small d-flex flex-column align-items-center justify-content-start">
+                  <p class="m-0">hussam adil</p>
+                  <span>12/23/2020</span>
+                </div>
+             </div>
+              <p>الممول هو الشخص الطبيعي او الاعتياري الذي يستهدفه القانون بدفع الضريبة وفقا لشروط محددة للاسهام في الاعباء العامة التي تتحملها الدولة و لابد أن يكون تحديد الممل و تعريفه و اضحا بنص واضح قاطع الدلالة و ان تحدد شروط الضريبة و مقدارها و اسس تقديرها و طرق جباتها و الالتزامات التي تقع على عاتق هذا الممول و هي نقديم الاقرار <a class="text-nowrap" href="single.html">...متابعة القراءة</a></p>
+              <div class="overflow-hidden d-flex align-items-center" style="height:200px; min-width: 100%;">
+                <img src="images/portfolio-1.jpg">
+              </div>      
+            </div>
+            <!-- Single post -->
+             <!-- Single post -->
+            <div class="single-post py-lg-5 py-4 px-4 px-lg-5 mb-4 shadow border rounded-3">
+             <div class="d-flex align-items-start justify-content-between py-2">
+                <h2>عنوان الموضوع</h2>
+                <div class="opacity-75 small d-flex flex-column align-items-center justify-content-start">
+                  <p class="m-0">hussam adil</p>
+                  <span>12/23/2020</span>
+                </div>
+             </div>
+              <p>الممول هو الشخص الطبيعي او الاعتياري الذي يستهدفه القانون بدفع الضريبة وفقا لشروط محددة للاسهام في الاعباء العامة التي تتحملها الدولة و لابد أن يكون تحديد الممل و تعريفه و اضحا بنص واضح قاطع الدلالة و ان تحدد شروط الضريبة و مقدارها و اسس تقديرها و طرق جباتها و الالتزامات التي تقع على عاتق هذا الممول و هي نقديم الاقرار <a class="text-nowrap" href="single.html">...متابعة القراءة</a></p>
+              <div class="overflow-hidden d-flex align-items-center" style="height:200px; min-width: 100%;">
+                <img src="images/portfolio-1.jpg">
+              </div>      
+            </div>
+            <!-- Single post -->
           </div>
-          <p>aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve</p>
-          <div class="img">
-            <img src="images/portfolio-1.jpg">
-          </div>
-          </div>
-      </div>
-    </div>
-    </div>
-  </section>
+    </section>
+
   <!--------------------------Start Fotter section-------------------------->
   <section class="footer py-3 dark-mod">
     <div class="container">
       <div class="row py-3">
-<!--         <div class="col-md-6">
-          <p>إشترك مجاناً للحصول على  تحديثات عن المقالات الجديدة </p>
-          <div class="input p-2">
-            <form action="#" method="#" class="w-100 justify-content---center d-flex align-items-center">
-          <button type="submit" class="w-25 btn">إشتراك </button>
-            <input type="email" class="w-50" dir="ltr" name="email"placeholder="Email">
-            </form>
-          </div>
-        </div> -->
         <div class="col-md-6 d-flex flex-column align-items-center">
           <p>إشترك مجاناً للحصول على  تحديثات عن المقالات الجديدة </p>
           <div class="input py-2 w-75">
@@ -136,7 +110,7 @@
           <div class="media flex-wrap">
             <p>بإستخدام المدونة فإنك وافقت على <a href="#" class="text-nowrap text-decoration-none">الاحكام و الشروط  </a> و <a href="#" class="text-nowrap text-decoration-none">سياسات الخصوصية  </a></p>
           
-          <div class="last">
+          <div class="last" id="contact">
             <p>تواصل معنا </p>
           <a href="#" class="p-2"><span class="fab fa-facebook"></span></a>
           <a href="#" class="p-2"><span class="fab fa-whatsapp"></span></a>
